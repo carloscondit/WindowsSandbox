@@ -1,0 +1,15 @@
+<Configuration>
+    <MappedFolders>
+        <MappedFolder>
+        <!-- Подключаем папки из гипервизора -->
+            <HostFolder>C:\Distr\Scripts</HostFolder>
+            <SandboxFolder>C:\Distr\Scripts</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+    </MappedFolders>
+    <ClipboardRedirection>true</ClipboardRedirection>
+    <MemoryInMB>3072</MemoryInMB>
+    <LogonCommand>
+     <Command>C:\Distr\Scripts\WindowsSandbox\sandbox-setup.cmd</Command>
+    </LogonCommand>
+</Configuration>
